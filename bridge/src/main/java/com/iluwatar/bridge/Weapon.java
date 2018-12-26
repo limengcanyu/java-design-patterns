@@ -23,9 +23,7 @@
 package com.iluwatar.bridge;
 
 /**
- * 
- * Weapon
- * 
+ * Weapon(武器)
  */
 public interface Weapon {
 

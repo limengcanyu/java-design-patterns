@@ -23,6 +23,8 @@
 package com.iluwatar.adapter;
 
 /**
+ * 适配器模式
+ *
  * An adapter helps two incompatible interfaces to work together. This is the real world definition
  * for an adapter. Interfaces may be incompatible but the inner functionality should suit the need.
  * The Adapter design pattern allows otherwise incompatible classes to work together by converting
@@ -33,9 +35,14 @@ package com.iluwatar.adapter;
  * interface whereas the object adapter uses composition to contain the adaptee in the adapter
  * object. This example uses the object adapter approach.
  *
+ * 适配器模式有两种变体: 适配器类实现适配者(adaptee)的接口, 而适配器对象使用组合来包含适配器对象中的 adaptee。
+ * 本示例使用对象适配器方法。
+ *
  * <p>
  * The Adapter ({@link FishingBoatAdapter}) converts the interface of the adaptee class (
  * {@link FishingBoat}) into a suitable one expected by the client ( {@link RowingBoat} ).
+ *
+ * 适配器把适配者类的接口转换为客户端期望的接口。
  *
  * <p>
  * The story of this implementation is this. <br>

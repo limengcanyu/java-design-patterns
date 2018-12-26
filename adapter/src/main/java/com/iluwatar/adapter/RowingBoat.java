@@ -23,6 +23,8 @@
 package com.iluwatar.adapter;
 
 /**
+ * 被适配接口(手划船)
+ *
  * The interface expected by the client.<br>
  * A rowing boat is rowed to move.
  *

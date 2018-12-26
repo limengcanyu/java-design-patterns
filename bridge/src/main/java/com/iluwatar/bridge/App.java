@@ -26,7 +26,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 
+ * 桥接模式
+ *
  * Composition over inheritance. The Bridge pattern can also be thought of as two layers of abstraction.
  * With Bridge, you can decouple an abstraction from its implementation so that the two can vary independently.
  * <p>

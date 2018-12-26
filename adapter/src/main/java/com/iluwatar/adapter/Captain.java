@@ -23,6 +23,9 @@
 package com.iluwatar.adapter;
 
 /**
+ * 船长(Captain)使用手划船(RowingBoat)航行
+ * 适配器类实现手划船接口，包含一个渔船类，客户端调用手划船的航行方法时，实际调用适配器类中的渔船对象的航行方法
+ *
  * The Captain uses {@link RowingBoat} to sail. <br>
  * This is the client in the pattern.
  */

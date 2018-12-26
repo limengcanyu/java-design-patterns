@@ -26,9 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 
- * Sword
- *
+ * Sword(刀剑)
  */
 public class Sword implements Weapon {
 
