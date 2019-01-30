@@ -27,6 +27,8 @@ import com.iluwatar.delegation.simple.printers.EpsonPrinter;
 import com.iluwatar.delegation.simple.printers.HpPrinter;
 
 /**
+ * 委托模式
+ *
  * The delegate pattern provides a mechanism to abstract away the implementation and control of the desired action.
  * The class being called in this case {@link PrinterController} is not responsible for the actual desired action,
  * but is actually delegated to a helper class either {@link CanonPrinter}, {@link EpsonPrinter} or {@link HpPrinter}.
